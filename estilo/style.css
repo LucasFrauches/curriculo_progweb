@@ -42,6 +42,7 @@ body {
 
 .formacao {
     grid-area: formacao;
+    margin-top: 20px;
 }
 
 ol {
