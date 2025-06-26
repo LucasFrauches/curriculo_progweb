@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color: #f5f5f5;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -10,7 +11,9 @@ body {
     width: 600px;
     border: 2px solid #aaa;
     padding: 15px;
-    background-color: #f7ef8588;
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+    border-radius: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
