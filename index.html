@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Currículo - Lucas Henrique</title>
-  <link rel ="stylesheet" href="estilo/style.css">
+  <link rel="stylesheet" href="estilo/s.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="curriculo">
-    <div class="sidebar">
-      <h2>Lucas Henrique</h2>
-      <img src="imagens/AvatarMaker.png" alt="Avatar de Lucas Henrique">
-      <p><a href="https://www.instagram.com/lucas.frauches/" target="_blank">Instagram</a></p>
-      <p>19 anos</p>
-      <p>Email: lucas.hfrauches@gmail.com</p>
+
+  <div class="container-linha">
+    <!-- Perfil -->
+    <div class="perfil">
+      <img src="imagens/AvatarMaker.png" alt="Avatar Lucas" />
+      <h1>Lucas Henrique</h1>
+      
+      <div class="contato">
+        <p><i class="fas fa-envelope"></i> lucas.hfrauches@gmail.com</p>
+        <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lucas.frauches/" target="_blank">Instagram</a></p>
+      </div>
     </div>
 
-    <div class="main">
-      <section>
-        <h1>Preferências</h1>
-        <p>Ambientes colaborativos<br>
-        Valorização do aprendizado contínuo<br>
-        Interesse por novas tecnologias<br>
-        Trabalho com propósito</p>
-      </section>
-
-      <section>
-        <h1>Formações Acadêmicas</h1>
-        <ol>
-          <li>
-            <strong>Formações acadêmicas</strong>
-            <ul>
-              <li>2022 - 2025 | <a href="https://www.ifes.edu.br" target="_blank">Escola Federal do Espírito Santo (IFES)</a><br>Técnico em Internet das Coisas (cursando)</li>
-              <li>2020 - 2021 | <a href="https://qedu.org.br/escola/32040270-emef-elzira-vivacqua-dos-santos" target="_blank">EMEF Elzira Vivácqua</a><br>Ensino Fundamental séries finais</li>
-              <li>2013 - 2019 | <a href="https://qedu.org.br/escola/32040164-emef-adevalni-sysesmundo-ferreira-de-azevedo/" target="_blank">EMEF ASFA</a><br>Ensino Fundamental séries iniciais</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Formações complementares</strong>
-            <ul>
-              <li>2018 a 2020 | <a href="https://www.ufes.br" target="_blank">Inglês no Centro de Línguas (UFES)</a></li>
-            </ul>
-          </li>
-          <li>
-            <strong>Soft Skills</strong>
-            <ul>
-              <li><a href="https://solides.com.br/blog/o-que-e-escuta-ativa/">Capacidade de escuta ativa</a></li>
-              <li><a href="https://lec.com.br/voce-ja-ouviu-falar-em-lifelong-learning-ou-aprendizado-continuo/">Aprendizado contínuo</a></li>
-              <li><a href="https://pt.wikipedia.org/wiki/Gestão_de_conflitos">Gestão de conflitos</a></li>
-            </ul>
-          </li>
-        </ol>
-      </section>
+    <!-- Preferências -->
+    <div class="preferencias">
+      <h2>Preferências</h2>
+      <p><strong>Ambiente Criativo:</strong> Espaços bem iluminados e com elementos inspiradores.</p>
+      <p><strong>Colaboração:</strong> Contato com equipes multidisciplinares.</p>
+      <p><strong>Autonomia:</strong> Liberdade para decisões estéticas e novas ideias.</p>
+      <p><strong>Ferramentas:</strong> Computador, software atualizado e mesa digitalizadora.</p>
     </div>
   </div>
+
+  <!-- Formações -->
+  <div class="bloco">
+    <h2>Formações Acadêmicas</h2>
+    <ol>
+      <li><a href="https://www.ufes.br" target="_blank">Bacharelado em Engenharia da Camputação - UFES</a> (2015 - 2019)</li>
+      <li><a href="https://www.etec.sp.gov.br" target="_blank">Técnico em Pesca - ETEC</a> (2013 - 2014)</li>
+    </ol>
+  </div>
+
+  <!-- Complementares -->
+  <div class="bloco">
+    <h2>Formações Complementares</h2>
+    <ol>
+      <li>Comunicação e Oratória – Senac (2000)</li>
+      <li>Arquitetura de Redes – Udemy (1857)</li>
+    </ol>
+  </div>
+
+  <!-- Soft Skills -->
+  <div class="bloco">
+    <h2>Soft Skills</h2>
+    <ol>
+      <li><a href="softskills/criativo.html">Criatividade</a></li>
+      <li><a href="softskills/comunicacao.html">Comunicação</a></li>
+      <li><a href="softskills/produtividade.html">Produtividade</a></li>
+    </ol>
+  </div>
+
 </body>
 </html>
